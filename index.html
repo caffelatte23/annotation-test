@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang='ja'>
+
+<head>
+  <meta charset='js'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+  <title>canvas play</title>
+  <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div id="canvas-wrapper" class="canvas-wrapper">
+      <canvas id="board2" width="800" height="600"></canvas>
+      <canvas id="board" width="800" height="600"></canvas>
+    </div>
+    <div class="sub-menu">
+      <form action="" method="get" id="label-form" class="label-form">
+        <div>
+          <input type="radio" id="label1" name="label-form" value="Car" checked>
+          <label for="label1">Car</label>
+        </div>
+        <div>
+          <input type="radio" id="label2" name="label-form" value="test">
+          <label for="label2">test</label>
+        </div>
+        <div>
+          <input type="radio" id="label3" name="label-form" value="test1">
+          <label for="label3">test1</label>
+        </div>
+      </form>
+      <ul id="list"></ul>
+    </div>
+  </div>
+  <script src="./js/index.js"></script>
+  <script src="./js/img-canvas.js"></script>
+</body>
+
+</html>
